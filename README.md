@@ -1,8 +1,8 @@
-# 🛡️ Web Security & Misconfiguration Scanner
+# Web Security & Misconfiguration Scanner
 
 An advanced, asynchronous Node.js CLI utility designed to audit web applications for missing security headers, dangerous CORS policies, and exposed sensitive directories.
 
-## ✨ Features
+## Features
 * **Concurrency Worker Engine:** Scans multiple sensitive paths concurrently for fast target inspection.
 * **CORS Vulnerability Check:** Detects risky wildcard origins combined with credential flags.
 * **Security Headers Audit:** Verifies implementation of CSP, HSTS, X-Frame-Options, and more.
@@ -10,17 +10,20 @@ An advanced, asynchronous Node.js CLI utility designed to audit web applications
 
 ---
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### For Local Development:
 1. Navigate to your project folder:
    ```bash
    cd web-sec-scanner
 2. Install dependencies:
+   ```bash
    npm install
-3. Run a security scan: 
+4. Run a security scan:
+   ```bash
    node cli.js [https://example.com]
-4. Export to JSON:
+6. Export to JSON:
+   ```bash
    node cli.js [https://example.com]([https://example.com]) --json
 
 
