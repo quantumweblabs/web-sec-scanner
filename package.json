@@ -1,0 +1,14 @@
+{
+  "name": "web-sec-scanner",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "scanner.js",
+  "bin": {
+    "webscan": "./cli.js"
+  },
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "node-fetch": "^3.3.2",
+    "ora": "^8.0.1"
+  }
+}
